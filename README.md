@@ -152,9 +152,9 @@ Y : 배달 APP 이용자의 긍정 & 부정 감성(긍정 : 1, 부정 : 0)
 #### SVMSMOTE
 - Oversampling 기법 중 SVMSMOTE을 사용하여 긍/부정 데이터의 비율을 동일하게 맞추어 train data를 재학습
 
-*Before Sampling:  Counter({1: 1379, 0: 161})
+Before Sampling:  Counter({1: 1379, 0: 161})
 
-*After oversampling(SVMSMOTE):  Counter({1: 1379, 0: 1379})
+After oversampling(SVMSMOTE):  Counter({1: 1379, 0: 1379})
 
 ![image](https://user-images.githubusercontent.com/87981867/135291764-6412a200-beb7-4e47-b0d5-2ca76a11f9d4.png)
 
@@ -175,23 +175,23 @@ Y : 배달 APP 이용자의 긍정 & 부정 감성(긍정 : 1, 부정 : 0)
 
 ![image](https://user-images.githubusercontent.com/87981867/135292140-94cfc408-a25f-4716-bb87-a258370df16a.png)
 
-*K = 1
+K = 1
 
 *accuracy: 0.85942029
 
-*K = 2
+K = 2
 
 *accuracy: 0.84347826
 
-*K = 3
+K = 3
 
 *accuracy: 0.85050798
 
-*K = 4
+K = 4
 
 *accuracy: 0.86357039
 
-*모델 평균 정확도 : 0.8542
+모델 평균 정확도 : 0.8542
 
 ## Sentiment Classification
 
@@ -229,4 +229,3 @@ Y : 배달 APP 이용자의 긍정 & 부정 감성(긍정 : 1, 부정 : 0)
 - 추출된 키워드를 통해서 이용자가 느끼는 영업점의 장단점을 파악할 수 있고, 이를 기반으로 앞으로 유지해야 할 좋은 서비스와 개선이 필요한 아쉬운 서비스에 대해서도 어느정도 판단 가능
 
 - 직관적인 지표들을 통해 리뷰를 일일이 읽지 않아도 영업점들을 서로 비교하기 원할 
-- 
